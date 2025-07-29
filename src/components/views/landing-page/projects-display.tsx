@@ -13,63 +13,63 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Live chat app",
     category: "Web Development",
     description:
-      "A responsive e-commerce platform built with Next.js and Stripe integration.",
+      "A real-time live chat application built with Next.js and WebSockets. Currently in the early stages of development.",
     image:
       "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["Next.js", "React", "Stripe", "Tailwind CSS"],
+    tags: ["Next.js", "Tailwind CSS, Firebase"],
   },
   {
     id: 2,
-    title: "AI-Powered Analytics Dashboard",
-    category: "Data Visualization",
+    title: "Casehub",
+    category: "Web Development",
     description:
-      "Interactive dashboard with machine learning insights for business metrics.",
+      "A web app designed for SLSU's Legal Office to track and manage case files.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["React", "D3.js", "TensorFlow.js", "Python"],
+    tags: ["Next.js", "Nest.js", "MySQL"],
   },
   {
     id: 3,
-    title: "Mobile Fitness App",
-    category: "App Development",
+    title: "IoT BMI & Body Fat Analyzer",
+    category: "Thesis Development",
     description:
-      "Cross-platform fitness tracking application with social features and workout plans.",
+      "My thesis project for measuring BMI and body fat using IoT sensors and machine learning.",
     image:
       "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["React Native", "Firebase", "Redux", "HealthKit"],
+    tags: ["React", "Flask", "Firebase", "Ultralytics (YOLO v10)"],
   },
   {
     id: 4,
-    title: "Blockchain Wallet Interface",
-    category: "Web3 Development",
+    title: "MPC API",
+    category: "API Development",
     description:
-      "Secure and intuitive wallet application for cryptocurrency management.",
+      "API for sending survey data from the frontend to the backend.",
     image:
       "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["Ethereum", "Web3.js", "React", "Solidity"],
+    tags: ["Nest.js", "MongoDB"],
   },
   {
     id: 5,
-    title: "Real-time Chat Application",
+    title: "HRIS",
     category: "Full Stack Development",
     description:
-      "End-to-end encrypted messaging platform with video call capabilities.",
+      "A Human Resource Information System for managing employee records, payroll, and HR processes.",
     image:
       "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["Socket.io", "WebRTC", "Node.js", "MongoDB"],
+    tags: ["ASP.NET", "Xamarin", "Microsoft SQL Server"],
   },
   {
     id: 6,
-    title: "Smart Home IoT Dashboard",
-    category: "IoT Development",
+    title: "Gym Management System (GMS)",
+    category: "Desktop App Development",
     description:
-      "Control system for smart home devices with automation rules and energy tracking.",
+      "A desktop app for managing gym memberships, tracking workouts, and handling billing operations.",
     image:
       "https://images.unsplash.com/photo-1585503418537-88331351ad99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["IoT", "MQTT", "React", "Node.js"],
+    tags: ["VB.Net", "Microsoft SQL Server"],
   },
 ];
 
