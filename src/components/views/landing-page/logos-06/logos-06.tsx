@@ -8,8 +8,8 @@ import {
   Logo07,
   Logo08,
   Logo09,
-} from "@/components/logos-06/logos";
-import { Badge } from "../ui/badge";
+} from "@/components/views/landing-page/logos-06/logos";
+import { Badge } from "../../../ui/badge";
 import Marquee from "@/components/ui/marquee";
 
 const Logos06Page = () => {
