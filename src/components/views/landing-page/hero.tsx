@@ -17,26 +17,27 @@ export default function PortfolioHeroSplitLayout() {
             <div className="flex items-center space-x-3">
               <span className="bg-primary h-1.5 w-1.5 rounded-full"></span>
               <h2 className="text-primary text-sm font-semibold tracking-wider uppercase">
-                Art Director & Visual Designer
+                Fullstack Software Developer
               </h2>
             </div>
 
             {/* Main heading with multi-line approach */}
             <h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-              <span className="block">Creating Brands</span>
-              <span className="text-primary mt-1 block">That Resonate</span>
+              <span className="block">Flourence T.</span>
+              <span className="text-primary mt-1 block">Lapore</span>
             </h1>
 
             {/* Description text */}
             <p className="text-muted-foreground max-w-xl text-lg">
-              I specialize in transforming complex ideas into compelling visual
-              narratives. With a decade of experience in branding and visual
-              design, I help businesses build memorable identities that connect
-              with their audience.
+              I craft end-to-end web applications using modern, scalable
+              technologies, delivering solutions that are both robust and
+              intuitive. With the ability to adapt quickly and master new
+              challenges, I turn complex ideas into seamless digital
+              experiences. You envision it — I build it.
             </p>
 
             {/* Featured clients section */}
-            <div className="pt-2">
+            {/* <div className="pt-2">
               <p className="text-muted-foreground mb-3 text-sm font-medium">
                 TRUSTED BY
               </p>
@@ -54,7 +55,7 @@ export default function PortfolioHeroSplitLayout() {
                   VISUALS+
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Call to action buttons */}
             <div className="flex flex-col gap-4 sm:flex-row">
