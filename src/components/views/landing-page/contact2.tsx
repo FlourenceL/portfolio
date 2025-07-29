@@ -20,7 +20,7 @@ const Contact2 = ({
   email = "renzo.lapore@gmail.com",
   web = {
     label: "LinkedIn Profile",
-    url: "www.linkedin.com/in/flourence-lapore-a03b722aa",
+    url: "https://www.linkedin.com/in/flourence-lapore-a03b722aa",
   },
 }: Contact2Props) => {
   return (
