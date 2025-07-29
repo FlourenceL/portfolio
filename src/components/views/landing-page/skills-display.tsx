@@ -20,15 +20,15 @@ import { cn } from "@/lib/utils";
 // Technical Skills with proficiency levels
 const technicalSkills = [
   { name: "JavaScript/TypeScript", proficiency: 95 },
-  { name: "React & React Native", proficiency: 92 },
-  { name: "Node.js & Express", proficiency: 88 },
-  { name: "Next.js", proficiency: 90 },
+  { name: "React & React Native", proficiency: 89 },
+  { name: "Node.js & Express", proficiency: 91 },
+  { name: "Next.js", proficiency: 92 },
   { name: "HTML/CSS/SASS", proficiency: 95 },
-  { name: "GraphQL", proficiency: 85 },
-  { name: "SQL & NoSQL Databases", proficiency: 82 },
-  { name: "AWS & Cloud Services", proficiency: 78 },
-  { name: "Docker & Kubernetes", proficiency: 75 },
-  { name: "Testing (Jest, Cypress)", proficiency: 85 },
+  { name: ".Net", proficiency: 79 },
+  { name: "SQL Databases", proficiency: 88 },
+  { name: "NoSQL Databases", proficiency: 88 },
+  { name: "Laravel", proficiency: 85 },
+  { name: "Technical Problem Solving", proficiency: 94 },
 ];
 
 // Tools categorized by type
@@ -37,12 +37,12 @@ const tools = [
     category: "Frontend",
     icon: <Globe className="h-5 w-5" />,
     items: [
-      { name: "React", icon: <Code /> },
+      { name: "Angular", icon: <FileCode /> },
       { name: "Next.js", icon: <FileCode /> },
+      { name: "Vue.js", icon: <FileCode /> },
       { name: "TypeScript", icon: <FileCode /> },
+      { name: "React", icon: <Code /> },
       { name: "Tailwind CSS", icon: <Palette /> },
-      { name: "Material UI", icon: <Palette /> },
-      { name: "Redux", icon: <Layers /> },
     ],
   },
   {
@@ -51,34 +51,34 @@ const tools = [
     items: [
       { name: "Node.js", icon: <Server /> },
       { name: "Express", icon: <Server /> },
-      { name: "PostgreSQL", icon: <Database /> },
+      { name: "Nest.js", icon: <Server /> },
       { name: "MongoDB", icon: <Database /> },
-      { name: "GraphQL", icon: <Code /> },
-      { name: "REST API", icon: <Globe /> },
+      { name: "MySQL", icon: <Database /> },
+      { name: "MicrosoftSQL Server", icon: <Database /> },
     ],
   },
-  {
-    category: "DevOps & Tools",
-    icon: <Terminal className="h-5 w-5" />,
-    items: [
-      { name: "Git & GitHub", icon: <Github /> },
-      { name: "Docker", icon: <Terminal /> },
-      { name: "AWS", icon: <Server /> },
-      { name: "CI/CD", icon: <Terminal /> },
-      { name: "Jest", icon: <Terminal /> },
-      { name: "Figma", icon: <Figma /> },
-    ],
-  },
+  // {
+  //   category: "DevOps & Tools",
+  //   icon: <Terminal className="h-5 w-5" />,
+  //   items: [
+  //     { name: "Git & GitHub", icon: <Github /> },
+  //     { name: "Docker", icon: <Terminal /> },
+  //     { name: "AWS", icon: <Server /> },
+  //     { name: "CI/CD", icon: <Terminal /> },
+  //     { name: "Jest", icon: <Terminal /> },
+  //     { name: "Figma", icon: <Figma /> },
+  //   ],
+  // },
   {
     category: "Mobile",
     icon: <Smartphone className="h-5 w-5" />,
     items: [
+      { name: "Ionic", icon: <Smartphone /> },
+      { name: "Xamarin", icon: <Smartphone /> },
       { name: "React Native", icon: <Smartphone /> },
-      { name: "Flutter", icon: <Smartphone /> },
-      { name: "iOS", icon: <Smartphone /> },
       { name: "Android", icon: <Smartphone /> },
-      { name: "Firebase", icon: <Database /> },
-      { name: "App Store Connect", icon: <Globe /> },
+      { name: "iOS", icon: <Smartphone /> },
+      { name: "SQLite", icon: <Database /> },
     ],
   },
 ];
