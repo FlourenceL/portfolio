@@ -31,17 +31,14 @@ const Navbar = () => {
     <section className="pt-5 px-5">
       <div className="container">
         <nav className="flex items-center justify-between">
-          <a
-            href="https://www.shadcnblocks.com"
-            className="flex items-center gap-2"
-          >
+          <a href="#" className="flex items-center gap-2">
             <img
-              src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg"
+              src="https://i.pinimg.com/736x/40/31/00/403100c729d0ef4551aeadfa57d9cbf7.jpg"
               className="max-h-8"
-              alt="Shadcn UI Navbar"
+              alt="Logo"
             />
             <span className="text-lg font-semibold tracking-tighter">
-              Shadcnblocks.com
+              Flourence Lapore
             </span>
           </a>
           <NavigationMenu className="hidden lg:block">
