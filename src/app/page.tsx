@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/views/landing-page/navbar";
 import PortfolioHeroSplitLayout from "@/components/views/landing-page/hero";
 import Logos06Page from "@/components/logos-06/logos-06";
+import SkillsDisplay from "@/components/views/landing-page/skills-display";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <PortfolioHeroSplitLayout />
       <Logos06Page />
+      <SkillsDisplay />
     </>
   );
 }
