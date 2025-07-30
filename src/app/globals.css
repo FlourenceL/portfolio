@@ -43,6 +43,10 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --radius: 0.65rem;
   --background: oklch(0.141 0.005 285.823);
