@@ -19,16 +19,16 @@ import { cn } from "@/lib/utils";
 
 // Technical Skills with proficiency levels
 const technicalSkills = [
-  { name: "JavaScript/TypeScript", proficiency: 95 },
+  { name: "JavaScript/TypeScript", proficiency: 89 },
   { name: "React & React Native", proficiency: 89 },
-  { name: "Node.js & Express", proficiency: 91 },
-  { name: "Next.js", proficiency: 92 },
+  { name: "Node.js & Express", proficiency: 87 },
+  { name: "Next.js", proficiency: 89 },
   { name: "HTML/CSS/SASS", proficiency: 95 },
   { name: ".Net", proficiency: 79 },
   { name: "SQL Databases", proficiency: 88 },
-  { name: "NoSQL Databases", proficiency: 88 },
-  { name: "Laravel", proficiency: 85 },
-  { name: "Technical Problem Solving", proficiency: 94 },
+  { name: "NoSQL Databases", proficiency: 79 },
+  { name: "Laravel", proficiency: 80 },
+  { name: "Nest.js", proficiency: 89 },
 ];
 
 // Tools categorized by type
@@ -50,7 +50,7 @@ const tools = [
     icon: <Server className="h-5 w-5" />,
     items: [
       { name: "Node.js", icon: <Server /> },
-      { name: "Express", icon: <Server /> },
+      { name: "Express.js", icon: <Server /> },
       { name: "Nest.js", icon: <Server /> },
       { name: "MongoDB", icon: <Database /> },
       { name: "MySQL", icon: <Database /> },

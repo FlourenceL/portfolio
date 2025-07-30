@@ -8,6 +8,8 @@ import {
   Logo07,
   Logo08,
   Logo09,
+  Logo10,
+  Logo11,
 } from "@/components/views/landing-page/logos-06/logos";
 import { Badge } from "../../../ui/badge";
 import Marquee from "@/components/ui/marquee";
@@ -43,6 +45,8 @@ const Logos06Page = () => {
             <Logo07 />
             <Logo08 />
             <Logo09 />
+            <Logo10 />
+            <Logo11 />
           </Marquee>
         </div>
       </div>
