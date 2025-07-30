@@ -28,7 +28,7 @@ const technicalSkills = [
   { name: "SQL Databases", proficiency: 88 },
   { name: "NoSQL Databases", proficiency: 79 },
   { name: "Laravel", proficiency: 80 },
-  { name: "Technical Problem Solving", proficiency: 89 },
+  { name: "Nest.js", proficiency: 89 },
 ];
 
 // Tools categorized by type
@@ -50,7 +50,7 @@ const tools = [
     icon: <Server className="h-5 w-5" />,
     items: [
       { name: "Node.js", icon: <Server /> },
-      { name: "Express", icon: <Server /> },
+      { name: "Express.js", icon: <Server /> },
       { name: "Nest.js", icon: <Server /> },
       { name: "MongoDB", icon: <Database /> },
       { name: "MySQL", icon: <Database /> },
