@@ -32,20 +32,7 @@ const Navbar5 = () => {
     <>
       <section className="py-4 sticky top-0 z-50 bg-black shadow-md">
         <div className="container">
-          <nav className="flex items-center justify-between">
-            <a
-              href="https://www.shadcnblocks.com"
-              className="flex items-center gap-2"
-            >
-              <img
-                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg"
-                className="max-h-8"
-                alt="Navbar"
-              />
-              <span className="text-lg font-semibold tracking-tighter">
-                Shadcnblocks.com
-              </span>
-            </a>
+          <nav className="flex items-center justify-center">
             <NavigationMenu className="hidden lg:block">
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -76,50 +63,37 @@ const Navbar5 = () => {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-            <div className="hidden items-center gap-4 lg:flex"></div>
-            <Sheet>
-              <SheetTrigger asChild className="lg:hidden">
-                <Button variant="outline" size="icon">
-                  <MenuIcon className="h-4 w-4" />
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="top" className="max-h-screen overflow-auto">
-                <SheetHeader>
-                  <SheetTitle>
-                    <a
-                      href="https://www.shadcnblocks.com"
-                      className="flex items-center gap-2"
-                    >
-                      <img
-                        src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg"
-                        className="max-h-8"
-                        alt="Shadcn UI Navbar"
-                      />
-                      <span className="text-lg font-semibold tracking-tighter">
-                        Shadcnblocks.com
-                      </span>
-                    </a>
-                  </SheetTitle>
-                </SheetHeader>
-                <div className="flex flex-col p-4">
-                  <div className="flex flex-col gap-6">
-                    <Link href="#home" className="font-medium">
-                      Home
-                    </Link>
-                    <Link href="#skills" className="font-medium">
-                      Skills
-                    </Link>
-                    <Link href="#projects" className="font-medium">
-                      Projects
-                    </Link>
-                    <Link href="#experiences" className="font-medium">
-                      Experiences
-                    </Link>
+            <div className="lg:hidden ml-auto mr-4">
+              <Sheet>
+                <SheetTrigger asChild className="lg:hidden">
+                  <Button variant="outline" size="icon">
+                    <MenuIcon className="h-4 w-4" />
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="top" className="max-h-screen overflow-auto">
+                  <SheetHeader>
+                    <SheetTitle></SheetTitle>
+                  </SheetHeader>
+                  <div className="flex flex-col p-4">
+                    <div className="flex flex-col gap-6">
+                      <Link href="#home" className="font-medium">
+                        Home
+                      </Link>
+                      <Link href="#skills" className="font-medium">
+                        Skills
+                      </Link>
+                      <Link href="#projects" className="font-medium">
+                        Projects
+                      </Link>
+                      <Link href="#experiences" className="font-medium">
+                        Experiences
+                      </Link>
+                    </div>
+                    <div className="mt-6 flex flex-col gap-4"></div>
                   </div>
-                  <div className="mt-6 flex flex-col gap-4"></div>
-                </div>
-              </SheetContent>
-            </Sheet>
+                </SheetContent>
+              </Sheet>
+            </div>
           </nav>
         </div>
       </section>
