@@ -14,7 +14,7 @@ const projects = [
   {
     id: 1,
     title: "Live chat app",
-    category: "Web Development",
+    category: "Personal Project",
     description:
       "A real-time live chat application built with Next.js and WebSockets. Currently in the early stages of development.",
     image:
@@ -24,7 +24,7 @@ const projects = [
   {
     id: 2,
     title: "Casehub",
-    category: "Web Development",
+    category: "Personal Project",
     description:
       "A web app designed for SLSU's Legal Office to track and manage case files.",
     image:
@@ -34,37 +34,44 @@ const projects = [
   {
     id: 3,
     title: "IoT BMI & Body Fat Analyzer",
-    category: "Thesis Development",
+    category: "Personal Project",
     description:
       "My thesis project for measuring BMI and body fat using IoT sensors and machine learning.",
-    image:
-      "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "/iot-image.jpg",
     tags: ["React", "Flask", "Firebase", "Ultralytics (YOLO v10)"],
   },
   {
     id: 4,
-    title: "MPC API",
-    category: "API Development",
+    title: "JKS (Japanese Shotorenmei Philippines)",
+    category: "Work Project",
     description:
-      "API for sending survey data from the frontend to the backend.",
+      "A fullstack web application for managing karate training schedules, member registrations, and event tracking.",
     image:
       "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["Nest.js", "MongoDB"],
+    tags: ["Angular", "Laravel", "MySQL"],
   },
   {
     id: 5,
-    title: "HRIS",
-    category: "Full Stack Development",
+    title: "MPC API",
+    category: "Work Project",
     description:
-      "A Human Resource Information System for managing employee records, payroll, and HR processes.",
-    image:
-      "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["ASP.NET", "Xamarin", "Microsoft SQL Server"],
+      "API for sending survey data from the frontend to the backend.",
+    image: "/mpc-swagger.jpg",
+    tags: ["Nest.js", "MongoDB"],
   },
   {
     id: 6,
+    title: "HRIS",
+    category: "Work Project",
+    description:
+      "A Human Resource Information System for managing employee records, payroll, and HR processes.",
+    image: "/hris.jpg",
+    tags: ["ASP.NET", "Xamarin", "Microsoft SQL Server"],
+  },
+  {
+    id: 7,
     title: "Gym Management System (GMS)",
-    category: "Desktop App Development",
+    category: "Personal Project",
     description:
       "A desktop app for managing gym memberships, tracking workouts, and handling billing operations.",
     image:
@@ -80,7 +87,7 @@ export default function PortfolioProjectStandardGrid() {
         {/* Section header */}
         <div className="mb-12 text-center md:mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Featured Projects
+            Work and Personal Projects
           </h2>
           <p className="text-muted-foreground mx-auto mt-4 max-w-2xl">
             A selection of my recent software development work, showcasing
