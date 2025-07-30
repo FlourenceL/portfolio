@@ -103,18 +103,18 @@ const Navbar5 = () => {
                 </SheetHeader>
                 <div className="flex flex-col p-4">
                   <div className="flex flex-col gap-6">
-                    <a href="#" className="font-medium">
+                    <Link href="#home" className="font-medium">
                       Home
-                    </a>
-                    <a href="#" className="font-medium">
+                    </Link>
+                    <Link href="#skills" className="font-medium">
                       Skills
-                    </a>
-                    <a href="#" className="font-medium">
+                    </Link>
+                    <Link href="#projects" className="font-medium">
                       Projects
-                    </a>
-                    <a href="#" className="font-medium">
+                    </Link>
+                    <Link href="#experiences" className="font-medium">
                       Experiences
-                    </a>
+                    </Link>
                   </div>
                   <div className="mt-6 flex flex-col gap-4"></div>
                 </div>
