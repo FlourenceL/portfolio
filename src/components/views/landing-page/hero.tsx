@@ -84,7 +84,7 @@ export default function PortfolioHeroSplitLayout() {
           {/* Main image with frame */}
           <div className="border-muted/30 bg-muted/10 relative z-10 h-full w-full overflow-hidden rounded-2xl border shadow-xl">
             <Image
-              src="/linkedin-profie.jpg"
+              src="/profile.jpg"
               alt="Designer's workspace with contemporary design elements"
               fill
               className="object-cover object-center"
