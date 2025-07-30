@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 export default function PortfolioHeroSplitLayout() {
   return (
@@ -59,15 +60,18 @@ export default function PortfolioHeroSplitLayout() {
 
             {/* Call to action buttons */}
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" className="group">
-                View Portfolio
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-
-              <Button variant="outline" size="lg" className="group">
-                Contact Me
-                <ExternalLink className="ml-2 h-4 w-4 opacity-70 transition-opacity group-hover:opacity-100" />
-              </Button>
+              <Link href="#projects">
+                <Button size="lg" className="group">
+                  View Projects
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link href="#contact">
+                <Button variant="outline" size="lg" className="group">
+                  Contact Me
+                  <ExternalLink className="ml-2 h-4 w-4 opacity-70 transition-opacity group-hover:opacity-100" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,7 +84,7 @@ export default function PortfolioHeroSplitLayout() {
           {/* Main image with frame */}
           <div className="border-muted/30 bg-muted/10 relative z-10 h-full w-full overflow-hidden rounded-2xl border shadow-xl">
             <Image
-              src="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3"
+              src="/linkedin-profie.jpg"
               alt="Designer's workspace with contemporary design elements"
               fill
               className="object-cover object-center"

@@ -3,11 +3,11 @@ import { Building2, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Junior Software Developer",
+    title: "Software Developer",
     company: "Liteclerk Corporation",
     period: "June 2025 - Present",
     description:
-      "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
+      "Contribute to projects including the HRIS and its mobile application by developing features, enhancing user experience, and resolving system bugs. Quickly adapted to .NET frameworks, demonstrating strong problem-solving skills and delivering improvements that optimize system performance and usability.",
     technologies: [
       "C#",
       "ASP.Net Core",
@@ -21,7 +21,7 @@ const experiences = [
     company: "Liteclerk Corporation",
     period: "January 2025 - April 2025",
     description:
-      "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
+      "Completed a 600-hour On-the-Job Training in full-stack development, contributing to key projects such as JKS and MPC API. Played an active role in improving system functionality and streamlining project workflows. Recognized for quickly adapting to complex tasks and demonstrating significant growth as a software developer.",
     technologies: ["Angular", "Laravel", "Nest.js", "Next.js", "MongoDB"],
   },
 ];
