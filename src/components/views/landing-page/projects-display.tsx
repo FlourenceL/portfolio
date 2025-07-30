@@ -42,8 +42,7 @@ Currently, the project is in its early development phase since my main focus is 
 I approached this project as if SLSU were my first real client, focusing on creating a reliable CRUD system with a strong emphasis on database efficiency and delivering the best possible user experience. On the frontend, my biggest challenge was ensuring responsiveness and crafting an intuitive UI. On the backend, I focused on implementing secure authentication and authorization, including guard mechanisms to protect sensitive data.
 
 This project not only strengthened my technical skills but also taught me how to think like a professional developer, balancing clean code, usability, and real-world client needs.`,
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "/noimageyet.jpg",
     tags: ["Next.js", "Nest.js", "MySQL"],
   },
   {
@@ -67,8 +66,7 @@ One of the most challenging parts was training a custom object detection model, 
     longDescription: `JKS (Japan Karate Shotorenmei Philippines) is a real-world project where we developed a full-stack web application to manage karate training schedules, member registrations, and event tracking. My main contribution was on the frontend, where I focused on making the website fully responsive and user-friendly.
 
 This project was a valuable experience as it exposed me to professional development practices and collaboration within a real-world client project, helping me refine my frontend skills while working with Angular and Laravel.`,
-    image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "/noimageyet.jpg",
     tags: ["Angular", "Laravel", "MySQL"],
   },
   {
