@@ -19,7 +19,7 @@ interface Contact2Props {
 
 const Contact2 = ({
   title = "Connect with me!",
-  description = "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
+  description = "I am available for questions, feedback, or collaboration opportunities. Let me know how I can help!",
   phone = "+63 9911903197",
   email = "renzo.lapore@gmail.com",
   web = {
