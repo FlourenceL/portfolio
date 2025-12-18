@@ -30,70 +30,76 @@ import Link from "next/link";
 const Navbar5 = () => {
   return (
     <>
-      <section className="py-4 sticky top-0 z-50 bg-black shadow-md">
+      <section className="py-4 sticky top-0 z-50 backdrop-blur-md bg-white/5 shadow-md border-b border-white/10">
         <div className="container">
           <nav className="flex items-center justify-center">
-            <NavigationMenu className="hidden lg:block">
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <Link href="#home" className={navigationMenuTriggerStyle()}>
-                    Home
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="#skills" className={navigationMenuTriggerStyle()}>
-                    Skills
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link
-                    href="#projects"
-                    className={navigationMenuTriggerStyle()}
-                  >
-                    Projects
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link
-                    href="#experiences"
-                    className={navigationMenuTriggerStyle()}
-                  >
-                    Experiences
-                  </Link>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-            <div className="lg:hidden ml-auto mr-4">
-              <Sheet>
-                <SheetTrigger asChild className="lg:hidden">
-                  <Button variant="outline" size="icon">
-                    <MenuIcon className="h-4 w-4" />
-                  </Button>
-                </SheetTrigger>
-                <SheetContent side="top" className="max-h-screen overflow-auto">
-                  <SheetHeader>
-                    <SheetTitle></SheetTitle>
-                  </SheetHeader>
-                  <div className="flex flex-col p-4">
-                    <div className="flex flex-col gap-6">
-                      <Link href="#home" className="font-medium">
-                        Home
-                      </Link>
-                      <Link href="#skills" className="font-medium">
-                        Skills
-                      </Link>
-                      <Link href="#projects" className="font-medium">
-                        Projects
-                      </Link>
-                      <Link href="#experiences" className="font-medium">
-                        Experiences
-                      </Link>
-                    </div>
-                    <div className="mt-6 flex flex-col gap-4"></div>
-                  </div>
-                </SheetContent>
-              </Sheet>
+        <NavigationMenu className="hidden lg:block">
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <Link
+          href="#home"
+          className={`${navigationMenuTriggerStyle()} bg-transparent`}
+              >
+          Home
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link
+          href="#skills"
+          className={`${navigationMenuTriggerStyle()} bg-transparent`}
+              >
+          Skills
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link
+          href="#projects"
+          className={`${navigationMenuTriggerStyle()} bg-transparent`}
+              >
+          Projects
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link
+          href="#experiences"
+          className={`${navigationMenuTriggerStyle()} bg-transparent`}
+              >
+          Experiences
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+        <div className="lg:hidden ml-auto mr-4">
+          <Sheet>
+            <SheetTrigger asChild className="lg:hidden">
+          <Button variant="outline" size="icon">
+            <MenuIcon className="h-4 w-4" />
+          </Button>
+            </SheetTrigger>
+            <SheetContent side="top" className="max-h-screen overflow-auto">
+          <SheetHeader>
+            <SheetTitle></SheetTitle>
+          </SheetHeader>
+          <div className="flex flex-col p-4">
+            <div className="flex flex-col gap-6">
+              <Link href="#home" className="font-medium">
+            Home
+              </Link>
+              <Link href="#skills" className="font-medium">
+            Skills
+              </Link>
+              <Link href="#projects" className="font-medium">
+            Projects
+              </Link>
+              <Link href="#experiences" className="font-medium">
+            Experiences
+              </Link>
             </div>
+            <div className="mt-6 flex flex-col gap-4"></div>
+          </div>
+            </SheetContent>
+          </Sheet>
+        </div>
           </nav>
         </div>
       </section>
